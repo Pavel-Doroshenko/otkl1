@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Отключение коммунальных ресурсов{% endblock %}
+
+{% block content %}
+    <a href="{{url_for('new_form') }}"><button>Добавить запись</button></a>
+    <table>
+        <tr>
+            <th>№ Записи</th>
+            <th>Дата записи</th>
+            <th>Адресс</th>
+            <th>Вид ресурса</th>
+            <th>Дата отключеия</th>
+            <th>Дата возобновления</th>
+        </tr>
+        {% for record in resource_shutdowns %}
+        <tr>
+            <td>{{record.id}}</td>
+            <td>{{record.recording_date}}</td>
+            <td>{{record.adress}}</td>
+            <td>{{record.type_of_resource}}</td>
+            <td>{{record.shutdown_date}}</td>
+            <td>{{record.renewal_date}}</td>
+            <td><a href="{{url_for('edit_record', record_id = record.id) }}"><button>Редактировать запись</button></a></td>
+            <td><a href="{{url_for('delete_record', record_id = record.id) }}"><button>Удалить запись</button></a></td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
