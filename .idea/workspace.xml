@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2d5ddb-e53c-47fd-8e5f-99691ff57faf" name="Changes" comment="начало">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/shutdowns.db" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/shutdowns.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2d5ddb-e53c-47fd-8e5f-99691ff57faf" name="Changes" comment="методы CRUD для работы с db на сервере." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,11 +97,20 @@
       <option name="project" value="LOCAL" />
       <updated>1745855857162</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="методы CRUD для работы с db на сервере.">
+      <option name="closed" value="true" />
+      <created>1746459894267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746459894267</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="начало" />
-    <option name="LAST_COMMIT_MESSAGE" value="начало" />
+    <MESSAGE value="методы CRUD для работы с db на сервере." />
+    <option name="LAST_COMMIT_MESSAGE" value="методы CRUD для работы с db на сервере." />
   </component>
 </project>
