@@ -1,18 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form action="#" method="post">
+<form action="{{url_for('edit_record', record_id = record.id)}}" method="post">
     <label for="recording_date">Дата записи</label>
-    <input type="text" id="recording_date" name="recording_date" value="{{record.recording_date}}"><br>
-    <label for="adress">Адрес</label>
-    <input type="text" id="adress" name="adress" value="{{record.adress}}"><br>
-    <label for="type_of_resource">Вид отключения</label>
-    <input type="text" id="type_of_resource" name="type_of_resource" value="{{record.type_of_resource}}"><br>
-    <label for="shutdown_date">Дата начала</label>
-    <input type="text" id="shutdown_date" name="shutdown_date" value="{{record.shutdown_date}}"><br>
-    <label for="renewal_date">Дата окончания</label>
-    <input type="text" id="renewal_date" name="renewal_date" value="{{record.renewal_date}}"><br>
-    <button type="submit">Обновить</button>
+    <input type="text" name="recording_date" value="{{record.recording_date}}"><br>
+    <label for="adress">Адресc</label>
+    <input type="text" name='adress' value='{{record.adress}}'><br>
+    <label for="type_of_resource">Вид ресурса</label>
+    <input type="text" name='type_of_resource' value='{{record.type_of_resource}}'><br>
+    <label for="shutdown_date">Дата отключеия</label>
+    <input type="text" name='shutdown_date' value='{{record.shutdown_date}}'><br>
+    <label for="renewal_date">Дата возобновления</label>
+    <input type="text" name='renewal_date' value='{{record.renewal_date}}'><br>
+    <input type="submit" value="отправить">
 </form>
 <a href="{{url_for('index')}}"><button>Отменить</button></a>
 {% endblock %}
