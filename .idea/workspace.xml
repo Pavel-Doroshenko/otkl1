@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2d5ddb-e53c-47fd-8e5f-99691ff57faf" name="Changes" comment="методы CRUD для работы с db на сервере." />
+    <list default="true" id="4d2d5ddb-e53c-47fd-8e5f-99691ff57faf" name="Changes" comment="методы CRUD для работы с db на сервере.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/shutdowns.db" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/shutdowns.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746459894267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="методы CRUD для работы с db на сервере.">
+      <option name="closed" value="true" />
+      <created>1746460087646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746460087646</updated>
+    </task>
+    <task id="LOCAL-00005" summary="методы CRUD для работы с db на сервере.">
+      <option name="closed" value="true" />
+      <created>1746460103177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746460103177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
